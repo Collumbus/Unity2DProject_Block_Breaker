@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
-    // Parameters
+    // Config params
     [SerializeField] int breakableBlocks; // Serialized for debugging purposes
 
     // Cached reference
