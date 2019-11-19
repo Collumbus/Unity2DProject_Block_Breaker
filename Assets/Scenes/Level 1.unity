@@ -2379,6 +2379,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 360d11779725b7741ac5d62334573c21, type: 3}
+--- !u!114 &829610277 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 829610277, guid: 014e0b71851fa3c4e9a086a0f1cd2487,
+    type: 3}
+  m_PrefabInstance: {fileID: 8213405198436525020}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &831825175 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5064993258605557579, guid: 360d11779725b7741ac5d62334573c21,
@@ -5454,6 +5466,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2076958498010798786, guid: 2bbc222a48b1b014a9dc8758a449c7fb,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 829610277}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bbc222a48b1b014a9dc8758a449c7fb, type: 3}
 --- !u!1001 &5064993259712274923
@@ -5849,10 +5866,9 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8213405197344148861, guid: 014e0b71851fa3c4e9a086a0f1cd2487,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
+    - target: {fileID: 829610277, guid: 014e0b71851fa3c4e9a086a0f1cd2487, type: 3}
+      propertyPath: m_textAlignment
+      value: 260
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 014e0b71851fa3c4e9a086a0f1cd2487, type: 3}
